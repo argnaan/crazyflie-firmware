@@ -256,20 +256,22 @@ obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.o
-obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.o
+# obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.o
 obj-y += CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.o
+
+obj-y += CMSIS/CMSIS/DSP/Source/MatrixFunctions/arm_mat_vec_mult_f32.o
 
 # FreeRTOS
 obj-y += FreeRTOS/event_groups.o
